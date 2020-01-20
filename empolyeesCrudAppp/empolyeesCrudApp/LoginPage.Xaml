@@ -1,0 +1,22 @@
+﻿<Window x:Class="empolyeesCrudApp.LoginPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:empolyeesCrudApp"
+        mc:Ignorable="d"
+        Title="Login" Height="300" Width="300" >
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="C:\Users\Krzys\Desktop\Jaworski-Krzsztof-GitHub\employeesCrudApp\empolyeesCrudApp\empolyeesCrudApp\Images\images.jfif"/>
+        </Grid.Background>
+        <Button Style="{StaticResource RoundButtonTemplate}" Background="Red"  x:Name="bntSingIn" Margin="59,200,63,24" Click="BntSingIn_Click">Submit</Button>
+
+        <Label  FontFamily="Nachlieli CLM BoldOblique" Margin="26,62,-26,175" Foreground="#FFFF7400">Login</Label>
+        <Label  FontFamily="Nachlieli CLM BoldOblique"   Margin="26,130,-10,107" Foreground="#FFFF7400">Password</Label>
+        <PasswordBox  x:Name="passwordBox"  Margin="35,154,115,90" Background="{x:Null}" BorderBrush="White" Foreground="Black" SelectionBrush="Black"></PasswordBox>
+        <TextBox x:Name="loginBox"  Margin="35,87,115,157" BorderBrush="White" Background="{x:Null}" Foreground="Black" SelectionBrush="Black">
+        </TextBox>
+        <Label  FontSize="22" Margin="105,36,103,182" FontFamily="Nachlieli CLM BoldOblique" Foreground="#FFFF7400">Sing In</Label>
+    </Grid>
+</Window>

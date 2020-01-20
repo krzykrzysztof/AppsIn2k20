@@ -1,0 +1,20 @@
+﻿<Window x:Class="DoctorApp.UPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DoctorApp"
+        mc:Ignorable="d"
+        Title="UPage" Height="271.385" Width="224">
+    <Grid>
+        <Grid>
+
+            <TextBlock HorizontalAlignment="Left" Margin="30,55,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top"/>
+            <TextBlock HorizontalAlignment="Left" Margin="78,22,0,0" TextWrapping="Wrap" Text="Members" VerticalAlignment="Top" Height="18" Width="76"/>
+            <TextBlock HorizontalAlignment="Left" Margin="30,104,0,0" TextWrapping="Wrap" Text="Age" VerticalAlignment="Top"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="34,76,0,0" TextWrapping="Wrap" x:Name="nameTextBox" VerticalAlignment="Top" Width="120"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="34,125,0,0" TextWrapping="Wrap" x:Name="ageBox" VerticalAlignment="Top" Width="120"/>
+            <Button x:Name="updateBtn" Content="Update" HorizontalAlignment="Left" Margin="65,168,0,0" VerticalAlignment="Top" Width="74" Click="Update_Click"/>
+        </Grid>
+    </Grid>
+</Window>

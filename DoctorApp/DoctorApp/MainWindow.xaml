@@ -1,0 +1,14 @@
+﻿<Window x:Class="DoctorApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DoctorApp"
+        mc:Ignorable="d"
+        Title="Menu" Height="350" Width="576" Background="AntiqueWhite" >
+    <Grid>
+        <Button x:Name="MemberBtn" Content="Member" Margin="293,0,0,0" Click="MemberBtn_Click" />
+        <Button x:Name="MedicineBtn" Content="Medicine" Margin="0,0,295,0"/>
+
+    </Grid>
+</Window>
