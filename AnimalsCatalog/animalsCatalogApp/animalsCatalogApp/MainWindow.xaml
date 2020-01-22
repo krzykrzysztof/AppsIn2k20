@@ -1,0 +1,26 @@
+﻿<Window x:Class="animalsCatalogApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:animalsCatalogApp"
+        mc:Ignorable="d"
+        Title="Main Catalog" Height="450" Width="800">
+    <DockPanel>
+        <DataGrid x:Name="MyDataGrid" x:FieldModifier="public" AutoGenerateColumns="False" ColumnWidth="*" Margin="0,5">
+            
+            <DataGrid.Columns>
+                
+                <DataGridTextColumn  Header="Id" Binding="{Binding Id}"/>
+                <DataGridTextColumn Header="MaxWeight" Binding="{Binding MaxWeight}"/>
+                <DataGridTextColumn Header="MaxHeight" Binding="{Binding MaxHeight}"/>
+                <DataGridTextColumn Header="Country" Binding="{Binding Country}"/>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}"/>
+                <DataGridTextColumn Header="MaxAge" Binding="{Binding MaxAge}"/>
+
+                
+            </DataGrid.Columns>
+        </DataGrid>
+        
+    </DockPanel>
+</Window>

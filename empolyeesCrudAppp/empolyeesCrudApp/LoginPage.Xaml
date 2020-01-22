@@ -8,7 +8,7 @@
         Title="Login" Height="300" Width="300" >
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="C:\Users\Krzys\Desktop\Jaworski-Krzsztof-GitHub\employeesCrudApp\empolyeesCrudApp\empolyeesCrudApp\Images\images.jfif"/>
+            <ImageBrush ImageSource="C:\Users\Krzys\Desktop\GitHubProjects\empolyeesCrudAppp\empolyeesCrudApp\Images\images.jfif"/>
         </Grid.Background>
         <Button Style="{StaticResource RoundButtonTemplate}" Background="Red"  x:Name="bntSingIn" Margin="59,200,63,24" Click="BntSingIn_Click">Submit</Button>
 

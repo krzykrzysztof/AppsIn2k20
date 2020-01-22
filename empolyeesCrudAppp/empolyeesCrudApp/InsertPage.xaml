@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="InsertPage" Height="243" Width="241">
     <Window.Background>
-        <ImageBrush ImageSource="C:\Users\Krzys\Desktop\Jaworski-Krzsztof-GitHub\employeesCrudApp\empolyeesCrudApp\empolyeesCrudApp\Images\images.jfif"/>
+        <ImageBrush ImageSource="C:\Users\Krzys\Desktop\GitHubProjects\empolyeesCrudAppp\empolyeesCrudApp\Images\images.jfif"/>
     </Window.Background>
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="30,55,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top"/>

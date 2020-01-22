@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" >
     <Window.Background>
-        <ImageBrush ImageSource="C:\Users\Krzys\Desktop\Jaworski-Krzsztof-GitHub\employeesCrudApp\empolyeesCrudApp\empolyeesCrudApp\Images\images.jfif"/>
+        <ImageBrush ImageSource="C:\Users\Krzys\Desktop\GitHubProjects\empolyeesCrudAppp\empolyeesCrudApp\Images\images.jfif"/>
     </Window.Background>
     <DockPanel>
         <DataGrid x:Name="MyDataGrid" Height="409" Width="785" x:FieldModifier="public" AutoGenerateColumns="False" ColumnWidth="*" Margin="0,5">
