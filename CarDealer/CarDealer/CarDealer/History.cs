@@ -47,7 +47,6 @@ namespace CarDealer
                 Console.WriteLine("Hi :)");
                 Console.WriteLine("Do you want buy\n1.Sedan\n2.Suv\n3.Hatchback");
                 Choose = Convert.ToInt32(Console.ReadLine());
-
                 while (Choose != 1 && Choose!=2 && Choose !=3)
                 {
                     Console.Clear();
@@ -55,7 +54,6 @@ namespace CarDealer
                     Console.WriteLine("Do you want buy\n1.Sedan\n2.Suv\n3.Hatchback");
                     Choose = Convert.ToInt32(Console.ReadLine());
                 }
-
 
                 if (Choose == 1)
                 {
@@ -71,10 +69,11 @@ namespace CarDealer
                         Console.WriteLine("Bad number.");
                         Console.WriteLine("Which Sedan Do you want Buy(Id): ");
                         Choose2 = Convert.ToInt32(Console.ReadLine());
+                        Console.Clear();
                     }
-                    if (Choose2 == 1)
+                    if (true)
                     {
-                        foreach (var item in sedanTab.Where(p => p.Id == 1))
+                        foreach (var item in sedanTab.Where(p => p.Id == Choose2))
                         {
                             item.ShowVehicle();
                             Console.WriteLine("Press any button to contntiue.");
@@ -82,29 +81,6 @@ namespace CarDealer
                             CalculateRate(item);
                         }
                     }
-                    else if (Choose2 == 2)
-                    {
-                        foreach (var item in sedanTab.Where(p => p.Id == 2))
-                        {
-                            item.ShowVehicle();
-                            Console.WriteLine("Press any button to contntiue.");
-                            Console.ReadLine();
-                            CalculateRate(item);
-
-                        }
-                    }
-                    else if (Choose2 == 3)
-                    {
-                        foreach (var item in sedanTab.Where(p => p.Id == 3))
-                        {
-                            item.ShowVehicle();
-                            Console.WriteLine("Press any button to contntiue.");
-                            Console.ReadLine();
-                            CalculateRate(item);
-
-                        }
-                    }
-
 
                 }
                 else if (Choose == 2)
@@ -121,37 +97,16 @@ namespace CarDealer
                         Console.WriteLine("Bad number.");
                         Console.WriteLine("Which Suv Do you want Buy(Id): ");
                         Choose2 = Convert.ToInt32(Console.ReadLine());
+                        Console.Clear();
                     }
-                    if (Choose2 == 1)
+                    if (true)
                     {
-                        foreach (var item in suvTab.Where(p => p.Id == 1))
+                        foreach (var item in suvTab.Where(p => p.Id == Choose2))
                         {
                             item.ShowVehicle();
                             Console.WriteLine("Press any button to contntiue.");
                             Console.ReadLine();
                             CalculateRate(item);
-                        }
-                    }
-                    else if (Choose2 == 2)
-                    {
-                        foreach (var item in suvTab.Where(p => p.Id == 2))
-                        {
-                            item.ShowVehicle();
-                            Console.WriteLine("Press any button to contntiue.");
-                            Console.ReadLine();
-                            CalculateRate(item);
-
-                        }
-                    }
-                    else if (Choose2 == 3)
-                    {
-                        foreach (var item in suvTab.Where(p => p.Id == 3))
-                        {
-                            item.ShowVehicle();
-                            Console.WriteLine("Press any button to contntiue.");
-                            Console.ReadLine();
-                            CalculateRate(item);
-
                         }
                     }
                 }
@@ -168,10 +123,11 @@ namespace CarDealer
                         Console.WriteLine("Bad number.");
                         Console.WriteLine("Which Hatchback Do you want Buy(Id): ");
                         Choose2 = Convert.ToInt32(Console.ReadLine());
+                        Console.Clear();
                     }
-                    if (Choose2 == 1)
+                    if (true)
                     {
-                        foreach (var item in hatchbackTab.Where(p => p.Id == 1))
+                        foreach (var item in hatchbackTab.Where(p => p.Id == Choose2))
                         {
                             item.ShowVehicle();
                             Console.WriteLine("Press any button to contntiue.");
@@ -179,28 +135,7 @@ namespace CarDealer
                             CalculateRate(item);
                         }
                     }
-                    else if (Choose2 == 2)
-                    {
-                        foreach (var item in hatchbackTab.Where(p => p.Id == 2))
-                        {
-                            item.ShowVehicle();
-                            Console.WriteLine("Press any button to contntiue.");
-                            Console.ReadLine();
-                            CalculateRate(item);
 
-                        }
-                    }
-                    else if (Choose2 == 3)
-                    {
-                        foreach (var item in hatchbackTab.Where(p => p.Id == 3))
-                        {
-                            item.ShowVehicle();
-                            Console.WriteLine("Press any button to contntiue.");
-                            Console.ReadLine();
-                            CalculateRate(item);
-
-                        }
-                    }
                 }
             }
             catch (Exception e )

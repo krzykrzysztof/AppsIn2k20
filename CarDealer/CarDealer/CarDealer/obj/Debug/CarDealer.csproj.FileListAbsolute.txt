@@ -5,3 +5,10 @@ C:\Users\Krzys\Desktop\C# Większe Projekty\CarDealer\CarDealer\CarDealer\obj\De
 C:\Users\Krzys\Desktop\C# Większe Projekty\CarDealer\CarDealer\CarDealer\obj\Debug\CarDealer.csproj.CoreCompileInputs.cache
 C:\Users\Krzys\Desktop\C# Większe Projekty\CarDealer\CarDealer\CarDealer\obj\Debug\CarDealer.exe
 C:\Users\Krzys\Desktop\C# Większe Projekty\CarDealer\CarDealer\CarDealer\obj\Debug\CarDealer.pdb
+C:\Users\Krzys\Desktop\GitHubProjects\CarDealer\CarDealer\CarDealer\bin\Debug\CarDealer.exe.config
+C:\Users\Krzys\Desktop\GitHubProjects\CarDealer\CarDealer\CarDealer\bin\Debug\CarDealer.exe
+C:\Users\Krzys\Desktop\GitHubProjects\CarDealer\CarDealer\CarDealer\bin\Debug\CarDealer.pdb
+C:\Users\Krzys\Desktop\GitHubProjects\CarDealer\CarDealer\CarDealer\obj\Debug\CarDealer.csprojAssemblyReference.cache
+C:\Users\Krzys\Desktop\GitHubProjects\CarDealer\CarDealer\CarDealer\obj\Debug\CarDealer.csproj.CoreCompileInputs.cache
+C:\Users\Krzys\Desktop\GitHubProjects\CarDealer\CarDealer\CarDealer\obj\Debug\CarDealer.exe
+C:\Users\Krzys\Desktop\GitHubProjects\CarDealer\CarDealer\CarDealer\obj\Debug\CarDealer.pdb
